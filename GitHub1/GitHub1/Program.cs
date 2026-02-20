@@ -1,11 +1,9 @@
-﻿using System;
-
-public class Program
+﻿namespace GitHub1
 {
-	public Program()
-	{
-		static void Main()
-		{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
             InputReader reader = new InputReader();
             Sorter sorter = new Sorter();
             JsonWriter writer = new JsonWriter();
@@ -18,5 +16,6 @@ public class Program
 
             Console.WriteLine("Всичко приключи успешно ✅");
         }
-	}
+    }
+    }
 }
